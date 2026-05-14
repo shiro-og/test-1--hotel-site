@@ -1,0 +1,88 @@
+:root{
+  --light-brown:#8b5e3c;
+  --dark-brown:#5c4033;
+  --gold:#ffd700;
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+
+}
+
+body{
+  font-family:'Poppins', sans-serif;
+}
+
+.pages{
+  padding-top: 70px;
+}
+ /*Home*/
+
+.home{
+  width: 100%;
+  min-height: 100vh;
+
+  background-image: url("YOUR_IMAGE_LINK");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.navbar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+  padding: 20px 40px;
+
+  position: fixed;
+  top:  0;
+  left: 0;
+
+  color: #f1f1f1;
+  background: gray;
+  backdrop-filter: blur(8px);
+
+  z-index: 1000;
+  font-size: 15px;
+  font-weight: 200;
+  font-family: 'Playfair Display', cursive,serif;
+  font-style: italic;
+  text-decoration: none;
+}
+
+/* LOGO */
+
+.logo{
+  color: white;
+  font-size: 24px;
+  font-weight: 350;
+  font-style: italic;
+  font-family: 'Playfair Display',cursive,serif;
+  letter-spacing: 2px;
+}
+
+/* NAV LINKS */
+
+.nav-links{
+  display: flex;
+  gap: 45px;   /* SPACE BETWEEN TABS */
+}
+
+.nav-links a{
+  text-decoration: none;
+  color: white;
+
+  font-size: 20px;
+  font-weight: 600;
+
+  transition: 0.3s;
+}
+
+.nav-links a:hover{
+  color: whitesmoke;
+  transform: scale(1.1);
+}

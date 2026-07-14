@@ -1,9 +1,9 @@
-
+import homeBg from "../assets/home.webp";
 export default function Booking() {
   return (
     <div className="homebg"
       style={{
-        backgroundImage: "url('/images/home.webp')",
+        backgroundImage: `url(${homeBg})`,
         backgroundSize: "cover",
         minHeight:"100vh"
       }}>

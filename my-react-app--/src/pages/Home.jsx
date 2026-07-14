@@ -1,16 +1,19 @@
 import { Link } from "react-router-dom";
-import logo from "../assets/logo.webp"
+import logo from "../assets/logo.webp";
+import homebg from "../assets/home.webp";
 
 export default function Home() {
   return (
     <>
-    <div className="homebg"
-      style={{
-        backgroundImage: "url('/images/home.webp')",
-        backgroundSize: "cover",
-        minHeight:"100vh"
-      }}
-    >
+      <div
+        className="homebg"
+        style={{
+          backgroundImage: `url(${homebg})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          minHeight: "100vh",
+        }}
+      >
       <div className="pages">
         <div className="home">
           
